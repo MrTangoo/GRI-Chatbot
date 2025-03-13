@@ -9,7 +9,9 @@ export default function Home() {
       <Nav />
       <Content />
       <Description />
-      <Bot />
+      <div className="pt-20">
+        <Bot />
+      </div>
     </div>
   );
 }
