@@ -8,7 +8,7 @@ const Description = () => {
                 className="text-center text-2xl md:text-4xl font-bold"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 1.2, ease: "easeOut", delay: 1.2 }}
+                transition={{ duration: 0.8, ease: "easeOut", delay: 1 }}
             >
                 Soulager le support IT
             </motion.h1>
@@ -16,7 +16,7 @@ const Description = () => {
                 className="text-justify text-base md:text-xl p-6"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 1.2, ease: "easeOut", delay: 1.4 }}
+                transition={{ duration: 0.8, ease: "easeOut", delay: 1.2 }}
             >
                 Ce projet a été réalisé dans le cadre du module 245, ayant pour objectif de résoudre une problématique métier grâce à une solution innovante. J&apos;ai donc choisi de développer un chatbot capable de réduire la charge de travail du support, qui fait face à un grand nombre de demandes répétitives. Ce bot vise à automatiser certaines tâches et à améliorer l&apos;efficacité du support.
             </motion.p>
