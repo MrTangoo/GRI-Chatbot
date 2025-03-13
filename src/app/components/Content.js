@@ -19,7 +19,7 @@ const Content = () => {
                     GRI Chatbot
                 </motion.h1>
                 <motion.p
-                    className="text-base md:text-xl text-gray-500"
+                    className="text-base md:text-xl"
                     initial={{ x: -50, opacity: 0 }}
                     animate={{ x: 0, opacity: 1 }}
                     transition={{ delay: 0.3, duration: 0.6 }}
