@@ -1,7 +1,9 @@
+import Script from 'next/script';
+
 const Bot = () => {
     return (
         <div>
-            <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+            <Script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1" />
             <df-messenger
                 chat-icon="https:&#x2F;&#x2F;cdn-icons-png.flaticon.com&#x2F;512&#x2F;5320&#x2F;5320931.png"
                 intent="WELCOME"

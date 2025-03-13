@@ -18,7 +18,7 @@ const Description = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1.2, ease: "easeOut", delay: 1.4 }}
             >
-                Ce projet a été réalisé dans le cadre du module 245, ayant pour objectif de résoudre une problématique métier grâce à une solution innovante. J'ai donc choisi de développer un chatbot capable de réduire la charge de travail du support, qui fait face à un grand nombre de demandes répétitives. Ce bot vise à automatiser certaines tâches et à améliorer l'efficacité du support.
+                Ce projet a été réalisé dans le cadre du module 245, ayant pour objectif de résoudre une problématique métier grâce à une solution innovante. J&apos;ai donc choisi de développer un chatbot capable de réduire la charge de travail du support, qui fait face à un grand nombre de demandes répétitives. Ce bot vise à automatiser certaines tâches et à améliorer l&apos;efficacité du support.
             </motion.p>
         </div>
     );
