@@ -5,7 +5,7 @@ const Description = () => {
     return (
         <div className="pt-20 md:pt-20 w-11/12 md:w-3/4 lg:w-1/2 mx-auto">
             <motion.h1
-                className="text-center text-2xl md:text-4xl font-bold"
+                className="text-center text-2xl md:text-4xl font-bold text-gray-700"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1.2, ease: "easeOut", delay: 1.2 }}
