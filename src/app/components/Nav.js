@@ -10,6 +10,7 @@ const Nav = () => {
                         alt="Logo GRI"
                         width={90}
                         height={90}
+                        priority
                     />
                 </li>
             </ul>
