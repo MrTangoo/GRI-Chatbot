@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const Content = () => {
     return (
-        <div className="pt-25 md:pt-25 px-4">
+        <div className="pt-25 md:pt-20 px-4">
             <motion.div
                 initial={{ opacity: 0, scale: 0.9 }}
                 animate={{ opacity: 1, scale: 1 }}
@@ -19,7 +19,7 @@ const Content = () => {
                     GRI Chatbot
                 </motion.h1>
                 <motion.p
-                    className="text-base md:text-xl"
+                    className="text-base md:text-xl text-gray-500"
                     initial={{ x: -50, opacity: 0 }}
                     animate={{ x: 0, opacity: 1 }}
                     transition={{ delay: 0.3, duration: 0.6 }}
