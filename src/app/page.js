@@ -5,7 +5,7 @@ import Description from "./components/Description";
 
 export default function Home() {
   return (
-    <div className="bg-gray-100 min-h-screen flex flex-col">
+    <div className="bg-gray-50 min-h-screen flex flex-col">
       <Nav />
       <Content />
       <Description />
